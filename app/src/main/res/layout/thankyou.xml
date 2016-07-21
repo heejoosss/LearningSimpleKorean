@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+    <ImageView
+        android:id="@+id/greeting_image_view"
+        style="@style/ImageViewStyle"
+        android:src="@drawable/thankyou" />
+    <Button
+        style="@style/NextButtonStyle"/>
+    <Button
+        style="@style/LastButtonStyle"/>
+
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/EnglishTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="Thanks | Thank you" />
+
+        <TextView
+            style="@style/KoreanTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="[고마워/감사합니다]" />
+
+        <TextView
+            style="@style/PronounTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="(Gomawo/Gamsa-ham-mida)" />
+
+        <TextView
+            style="@style/EnglishTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="I am Sorry" />
+
+        <TextView
+            style="@style/KoreanTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="[미안해/죄송합니다]" />
+
+        <TextView
+            style="@style/PronounTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="(Mianhe/Jesong-ham-mida)" />
+    </LinearLayout>
+</LinearLayout>

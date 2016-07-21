@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:text="3. Now you are in the MongKok market in Hongkong. Then you find it something strange and what can you say to him to ask what is it and how much is it?"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#727272"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp">
+
+    <CheckBox
+        android:id="@+id/number3_check_false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="안녕하세요? / 너 이름이 뭐니?"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/number3_check_false2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="내 이름은 우산이야? / 이거 얼마에요?"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+    <CheckBox
+        android:id="@+id/number3_check_true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="이건 뭐에요? / 이거 얼마에요?"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:text="4. You meet some foreign friends at CityU. Then you want to introduce yourself and know other friends name. How can you say to them?"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#727272"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp">
+
+        <CheckBox
+            android:id="@+id/number4_check1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Check if you can introduce yourself"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/number4_check2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Check if you can ask name of your friends"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Button
+        style="@style/NextButtonStyle"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+    <ImageView
+        android:id="@+id/greeting_image_view"
+        style="@style/ImageViewStyle"
+        android:src="@drawable/market" />
+    <Button
+        style="@style/NextButtonStyle"/>
+    <Button
+        style="@style/LastButtonStyle"/>
+
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/EnglishTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="What is this?" />
+
+        <TextView
+            style="@style/KoreanTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="[이건 뭐에요?]" />
+
+        <TextView
+            style="@style/PronounTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="(Egon-mou-eyo?)" />
+
+        <TextView
+            style="@style/EnglishTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="How much is it?" />
+
+        <TextView
+            style="@style/KoreanTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="[이거 얼마에요?]" />
+
+        <TextView
+            style="@style/PronounTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="(Ego-oulma-eyo?)" />
+    </LinearLayout>
+</LinearLayout>

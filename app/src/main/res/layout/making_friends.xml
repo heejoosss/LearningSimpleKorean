@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+    <ImageView
+        android:id="@+id/greeting_image_view"
+        style="@style/ImageViewStyle"
+        android:src="@drawable/first_meeting" />
+    <Button
+        style="@style/NextButtonStyle"/>
+    <Button
+        style="@style/LastButtonStyle"/>
+
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/EnglishTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="What is your name?" />
+
+        <TextView
+            style="@style/KoreanTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="[너 이름이 뭐니?]" />
+
+        <TextView
+            style="@style/PronounTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="(Neo-ereumi-mouni?)" />
+
+        <TextView
+            style="@style/EnglishTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="My name is OOO" />
+
+        <TextView
+            style="@style/KoreanTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="[내 이름은 OOO이야]" />
+
+        <TextView
+            style="@style/PronounTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="(Ne-ereumun-OOO-iy)" />
+    </LinearLayout>
+</LinearLayout>

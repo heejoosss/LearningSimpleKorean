@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+    <ImageView
+        android:id="@+id/greeting_image_view"
+        style="@style/ImageViewStyle"
+        android:src="@drawable/greeting" />
+    <Button
+        style="@style/NextButtonStyle"/>
+
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/EnglishTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="Hello | Hi" />
+
+        <TextView
+            style="@style/KoreanTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="[안녕/안녕하세요]" />
+
+        <TextView
+            style="@style/PronounTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="(Annyeong/Annyeong-haseyo)" />
+
+        <TextView
+            style="@style/EnglishTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="Goodbye" />
+
+        <TextView
+            style="@style/KoreanTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="[잘가/안녕히가세요]" />
+
+        <TextView
+            style="@style/PronounTextStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="(Jal-ga/Annyeonghi-gaseyo)" />
+    </LinearLayout>
+</LinearLayout>

@@ -3,9 +3,73 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryDark">#8BC34A</item>
+        <item name="colorAccent">#212121</item>
+    </style>
+
+    <!-- Style for a button for next page -->
+    <style name="NextButtonStyle">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:background">@drawable/round_button</item>
+        <item name="android:drawableTop">@android:drawable/ic_media_next</item>
+        <item name="android:text">NEXT</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <!-- Style for a button for last page -->
+    <style name="LastButtonStyle">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:background">@drawable/round_button</item>
+        <item name="android:drawableTop">@android:drawable/ic_media_previous</item>
+        <item name="android:text">PREVIOUS</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+
+    <!-- Style for a image -->
+    <style name="ImageViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Style for a English text -->
+    <style name="EnglishTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">#212121</item>
+    </style>
+
+    <!-- Style for a Korean text -->
+    <style name="KoreanTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">#4CAF50</item>
+    </style>
+
+    <!-- Style for a pronouncation text -->
+    <style name="PronounTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#727272</item>
     </style>
 
 </resources>
