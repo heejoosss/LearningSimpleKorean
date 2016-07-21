@@ -8,15 +8,18 @@ import android.view.View;
 /**
  * Created by ee5415 on 7/21/2016.
  */
-
-public class FirstGreeting extends AppCompatActivity {
+public class ThirdMarketConversation extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.greeting);
+        setContentView(R.layout.market_conversation);
     }
 
+    public void nextToFourth (View v){
+        Intent intent = new Intent(this, FourthMakingFriends.class);
+        startActivity(intent);
+    }
     public void nextToSecond (View v){
         Intent intent = new Intent(this, SecondThankyou.class);
         startActivity(intent);

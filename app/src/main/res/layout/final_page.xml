@@ -55,7 +55,7 @@
         android:layout_margin="20dp"
         android:textSize="40sp"
         android:text="LEARN AGAIN"
-        android:onClick="eatCookie"
+        android:onClick="goToStart"
         android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>

@@ -11,9 +11,11 @@
         style="@style/ImageViewStyle"
         android:src="@drawable/thankyou" />
     <Button
-        style="@style/NextButtonStyle"/>
+        style="@style/NextButtonStyle"
+        android:onClick="nextToThird"/>
     <Button
-        style="@style/LastButtonStyle"/>
+        style="@style/LastButtonStyle"
+        android:onClick="nextToFirst"/>
 
 </RelativeLayout>
 

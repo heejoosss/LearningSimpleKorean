@@ -11,9 +11,11 @@
         style="@style/ImageViewStyle"
         android:src="@drawable/market" />
     <Button
-        style="@style/NextButtonStyle"/>
+        style="@style/NextButtonStyle"
+        android:onClick="nextToFourth"/>
     <Button
-        style="@style/LastButtonStyle"/>
+        style="@style/LastButtonStyle"
+        android:onClick="nextToSecond"/>
 
 </RelativeLayout>
 

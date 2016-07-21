@@ -11,7 +11,8 @@
         style="@style/ImageViewStyle"
         android:src="@drawable/greeting" />
     <Button
-        style="@style/NextButtonStyle"/>
+        style="@style/NextButtonStyle"
+        android:onClick="nextToSecond"/>
 
 </RelativeLayout>
 
